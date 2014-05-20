@@ -53,7 +53,7 @@ namespace motter
             //どの修飾子キー(Shift、Ctrl、およびAlt)が押されているか
             if (Control.ModifierKeys == Keys.Shift && e.KeyChar == (char)Keys.Return)
             {
-                words.Text += "Enter+Shiftキーが押されています。";
+                //words.Text += "Enter+Shiftキーが押されています。";
 
                 string currentDirec = System.Environment.CurrentDirectory;
                 System.IO.StreamWriter sw = new System.IO.StreamWriter(
